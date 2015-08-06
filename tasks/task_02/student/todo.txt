@@ -1,0 +1,15 @@
+Write an application which:
+* will have two threads
+* app takes one argument: amount of prints by each thread
+* one thread is printing "ping\n" and the second one "pong\n" ('\n' is a new line character)
+* threads are pinting one by one hence output from the from the app shall be like:
+	$./prog 3
+	ping
+	pong
+	ping
+	pong
+	ping
+	pong
+* there can't be any sleeps in code
+* there can't be any spinlocks in the code
+
